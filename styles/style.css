@@ -1,3 +1,10 @@
+body {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
 .nav__section {
   box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25);
   background: rgba(34, 34, 35, 0.8);
@@ -11,6 +18,7 @@
 
 .logo__link {
   display: inline-block;
+  margin-right: 98px;
 }
 
 .logo__appear {
@@ -21,4 +29,18 @@
 
 .nav__links {
   display: inline-block;
+  margin-top: 2px;
+  vertical-align: top;
+}
+
+.nav__link {
+  display: inline-block;
+  width: 135px;
+  height: 37px;
+  margin-right: 40px;
+
+  line-height: 37px;
+  text-align: center;
+  text-decoration: none;
+  color: #e6e6e6;
 }
